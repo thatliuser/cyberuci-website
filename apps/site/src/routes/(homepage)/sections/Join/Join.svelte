@@ -30,13 +30,13 @@
 	<ul class="sm:flex justify-center m-0 list-none gap-2 p-2">
 		{#each items as item}
 			{@const Icon = item.icon}
-			<li class="flex-1 max-w-sm">
+			<li class="flex-1">
 				<a
 					class="block h-full select-none rounded-sm p-3 decoration-none border-gray-4 dark:border-graydark-4 border border-solid hover:border-gray-5 dark:hover:border-graydark-5 hover:background-3 flex flex-col transition-colors"
 					href={item.href}
 				>
 					<div class="type-heading-1 text text-center hover">
-						<Icon size={20} />
+						<Icon size={20} class="mr-1" />
 						{item.caption}
 						<ArrowUpRight size={20} />
 					</div>
