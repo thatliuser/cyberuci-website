@@ -1,5 +1,12 @@
 <script lang="ts">
-	import { ArrowUpRight, FileUp, Trophy, Calendar, type Icon as IconType } from 'lucide-svelte';
+	import {
+		ArrowUpRight,
+		FileUp,
+		Trophy,
+		Calendar,
+		type Icon as IconType,
+		MessageCircle
+	} from 'lucide-svelte';
 	interface ActionItem {
 		caption: string;
 		href: string;
@@ -7,12 +14,17 @@
 	}
 	const items: ActionItem[] = [
 		{
+			caption: 'Join our Discord',
+			href: 'https://discord.cyberuci.com',
+			icon: MessageCircle
+		},
+		{
 			caption: 'Attend an event',
 			href: '/events',
 			icon: Calendar
 		},
 		{
-			caption: 'Apply for a subteam',
+			caption: 'Join a subteam',
 			href: 'https://airtable.com/appnQbDvEpMwKK4Ww/paguAHSYAoOhH13CT/form',
 			icon: FileUp
 		},
