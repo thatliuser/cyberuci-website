@@ -1,6 +1,7 @@
 <script lang="ts">
 	import type { PageData } from './$types';
 
+	import Join from './sections/Join/Join.svelte';
 	import Header from './sections/Header/Header.svelte';
 	import Competitions from './sections/Competitions/Competitions.svelte';
 	import Hackerlab from './sections/Hackerlab/Hackerlab.svelte';
@@ -23,6 +24,7 @@
 {:else}
 	<Header />
 {/if}
+<Join />
 <Competitions description={data.homepage.competitions.description} />
 <Hackerlab section={data.homepage.hackerlab} />
 <Socials socials={data.socials.socials} />

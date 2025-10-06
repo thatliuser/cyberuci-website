@@ -1,5 +1,5 @@
-<div class="my-6 space-x">
-	<h1 class="mt-60 type-display sm:mt-80">
+<div class="my-2 space-x">
+	<h1 class="mt-20 type-display">
 		Cybersecurity matters.<br />
 		Be part of the solution.
 	</h1>
@@ -8,4 +8,4 @@
 		experience.
 	</p> -->
 </div>
-<enhanced:img class="h-2xl w-full object-cover" src="./cover.jpg" alt="" />
+<enhanced:img class="w-full h-[33vh] sm:h-[50vh] object-cover" src="./cover.jpg" alt="" />
